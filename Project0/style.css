@@ -1,0 +1,35 @@
+
+
+.container{
+  background: green;
+  width: 50%;
+  margin: auto;
+  padding:1rem;
+}
+.inputBody{
+  text-align: center;
+}
+.InputContent{
+  display: block;
+}
+input{
+  width: 16rem;
+  padding: .4rem;
+  outline: none;
+}
+button{
+  width: 17.1rem;
+  padding: .4rem;
+  margin-top:.5rem;
+  background: rgb(59, 59, 141);
+  color: white;
+
+}
+.question{
+  font-size: 1rem;
+  color: white;
+}
+.score{
+ font-size: 1rem;
+
+}

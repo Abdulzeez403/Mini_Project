@@ -1,0 +1,52 @@
+body{
+  background:rgb(166, 241, 79);
+}
+.container{
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height:100vh;
+  align-items: center;
+  position: relative;
+  opacity: 1;
+  transition: all .8s;
+}
+.content1{
+  text-align: center;
+}
+.content1 > h3{
+  font-size: 3rem;
+}
+.content1 > p{
+  font-size: 1.3rem;
+}
+
+.active.container{
+  background-color: white;
+
+}
+
+.content2{
+  position: absolute;
+  background: black;
+  width: 300px;
+  top: 30%;
+  left: 50%;
+  padding: 3rem;
+  transform: translateX(-50%);
+  opacity: 1;
+  transition: opacity 0.8s;
+}
+.content2 > h4{
+  color: white;
+  text-align: center;
+}
+input{
+  padding: .3rem;
+}
+
+.active.content2{
+  visibility: hidden;
+  opacity: 0;
+  top: 10%;
+  }

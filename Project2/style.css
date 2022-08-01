@@ -1,0 +1,24 @@
+body{
+  margin:0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  background: green;
+
+  
+}
+.container{
+background: rgb(248, 245, 245);
+padding: 2rem;
+}
+.total{
+  display: flex;
+  justify-content: space-between;
+}
+.header{
+  text-align: center;
+}
+textarea{
+  background: peru
+}

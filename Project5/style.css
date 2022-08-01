@@ -1,0 +1,57 @@
+body{
+  margin:0;
+  display: flex;
+  height: 90vh;
+  justify-content: center;
+  align-items: center;
+}
+.gen{
+  width: 50%;
+  text-align: center;
+  background-color: black;
+  color:white;
+  position: relative;
+
+}
+.container{
+ opacity: 1;
+ transition: opacity 0.9s;
+}
+p{
+  width: 90%;
+ margin: auto;
+ margin-top:1rem;
+ font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+ text-justify: auto;
+}
+
+button{
+margin: 2rem;
+display: flex;
+align-items: start;
+padding:.5rem;
+background: yellow;
+}
+.videoTaper{
+  position: absolute;
+  top:50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.active.videoTaper{
+  visibility: hidden;
+  opacity: 0;
+
+
+}
+.active.container{
+  visibility: hidden;
+  opacity: 0;
+}
+
+.close{
+  color: white;
+   position: absolute;
+   right: 0;
+   top: -60px;
+}
